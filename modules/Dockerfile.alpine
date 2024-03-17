@@ -1,4 +1,4 @@
-ARG NGINX_FROM_IMAGE=nginx:mainline-alpine
+ARG NGINX_FROM_IMAGE=nginx:1.25.4-alpine3.18
 FROM ${NGINX_FROM_IMAGE} as builder
 
 ARG ENABLED_MODULES
