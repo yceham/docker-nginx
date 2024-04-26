@@ -1,4 +1,4 @@
-ARG NGINX_FROM_IMAGE=nginx:mainline
+ARG NGINX_FROM_IMAGE=nginx:1.26.0-bookworm
 FROM ${NGINX_FROM_IMAGE} as builder
 
 ARG ENABLED_MODULES
